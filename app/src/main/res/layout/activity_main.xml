@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout tools:context=".MainActivity" android:background="@color/colorPrimary" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:rotationX="8"
+        android:text="@string/logo"
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/textColor" android:layout_marginTop="100sp" android:fontFamily="@font/montserrat_bold" android:id="@+id/user_field" android:hint="@string/hint_user_field" android:textColorHint="@color/textColorHint" android:inputType="textPersonName" android:backgroundTint="@color/colorAccent" android:layout_marginHorizontal="50sp" android:layout_below="@+id/logo" android:ems="10"/>
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="20sp" android:text="@string/main_btn" android:fontFamily="@font/montserrat_bold" android:id="@+id/main_btn" android:backgroundTint="@color/colorAccent" android:layout_marginHorizontal="130sp" android:layout_below="@+id/user_field"/>
+<TextView android:layout_height="150sp" android:layout_width="match_parent" android:textSize="25sp" android:textColor="@color/textColorHint"  android:layout_marginTop="50sp" android:fontFamily="@font/montserrat_bold" android:id="@+id/result_info" android:layout_below="@+id/main_btn"/>
+
+    </RelativeLayout>
+
